@@ -19,6 +19,9 @@
     "redux-firestore": "^0.13.0",
     "redux-thunk": "^2.3.0"
   },
+  "engines": {
+    "node": "8"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
