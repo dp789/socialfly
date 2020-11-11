@@ -1,0 +1,73 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  background-image: linear-gradient(rgba(159, 166, 182, 0.883), rgba(136, 136, 173, 0.966)), url(/image/pbg5.jpg);
+}
+
+.img-holder {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-img-holder {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.img-holder img,
+.profile-img-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titles {
+  color: #fff;
+}
+
+.like {
+  color: #1DA1F2;
+  transition: all ease-in-out 0.3s;
+}
+
+.like:hover {
+  transform: scale(1.3)
+}
+
+.home {
+  text-transform: uppercase;
+  color: #fff;
+  top: 60%;
+  left: 40%;
+  transform: translate(-40%, -40%);
+  font-size: 50px;
+}
+
+.navbar {
+  background-color: #2b6779
+}
+
+a.social-links {
+  color: #8dd0f8;
+  transition: ease all 0.3s;
+}
+
+a.social-links:hover {
+  color: #6dc2f7;
+}
+
+.browse-files {
+  width: 25%;
+}
+.navbar-brand-mb-0-h1{
+  color: white;
+  font-size: x-large;
+  font-style:oblique;
+}
